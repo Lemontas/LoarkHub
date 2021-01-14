@@ -15,19 +15,17 @@ local TextLabel = Instance.new("TextLabel")
 local _1 = Instance.new("TextButton")
 local _5 = Instance.new("TextButton")
 local _2 = Instance.new("TextButton")
+local _13 = Instance.new("TextButton")
 local Roundify_2 = Instance.new("ImageLabel")
 local TextName = Instance.new("TextLabel")
 local openclose = Instance.new("TextButton")
 
---Properties:
-
 ScreenGui.Parent = game.CoreGui
-ScreenGui.ResetOnSpawn = False
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.344848871, 0, 0.475218654, 0)
+Frame.Position = UDim2.new(0.370000005, 0, 0.349999994, 0)
 Frame.Size = UDim2.new(0, 502, 0, 32)
 Frame.ZIndex = 3
 
@@ -35,7 +33,7 @@ Frame_2.Parent = Frame
 Frame_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
 Frame_2.BorderSizePixel = 0
 Frame_2.Position = UDim2.new(0, 0, 1.37370396, 0)
-Frame_2.Size = UDim2.new(0, 502, 0, 228)
+Frame_2.Size = UDim2.new(0, 502, 0, 321)
 Frame_2.ZIndex = 3
 
 Roundify.Name = "Roundify"
@@ -56,7 +54,7 @@ _4.Name = "4"
 _4.Parent = Frame_2
 _4.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 _4.BorderSizePixel = 0
-_4.Position = UDim2.new(0.768924296, 0, 0.105263159, 0)
+_4.Position = UDim2.new(0.770916343, 0, 0.0554189235, 0)
 _4.Size = UDim2.new(0, 115, 0, 36)
 _4.ZIndex = 3
 _4.Font = Enum.Font.SourceSansBold
@@ -70,7 +68,7 @@ _3.Name = "3"
 _3.Parent = Frame_2
 _3.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 _3.BorderSizePixel = 0
-_3.Position = UDim2.new(0.515936255, 0, 0.105263159, 0)
+_3.Position = UDim2.new(0.517928302, 0, 0.0554189235, 0)
 _3.Size = UDim2.new(0, 115, 0, 36)
 _3.ZIndex = 3
 _3.Font = Enum.Font.SourceSansBold
@@ -84,7 +82,7 @@ _12.Name = "12"
 _12.Parent = Frame_2
 _12.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 _12.BorderSizePixel = 0
-_12.Position = UDim2.new(0.768924296, 0, 0.61403513, 0)
+_12.Position = UDim2.new(0.768924296, 0, 0.411542922, 0)
 _12.Size = UDim2.new(0, 115, 0, 36)
 _12.ZIndex = 3
 _12.Font = Enum.Font.SourceSansBold
@@ -98,7 +96,7 @@ _11.Name = "11"
 _11.Parent = Frame_2
 _11.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 _11.BorderSizePixel = 0
-_11.Position = UDim2.new(0.515936255, 0, 0.61403513, 0)
+_11.Position = UDim2.new(0.515936255, 0, 0.411542922, 0)
 _11.Size = UDim2.new(0, 115, 0, 36)
 _11.ZIndex = 3
 _11.Font = Enum.Font.SourceSansBold
@@ -112,7 +110,7 @@ _10.Name = "10"
 _10.Parent = Frame_2
 _10.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 _10.BorderSizePixel = 0
-_10.Position = UDim2.new(0.256972104, 0, 0.61403513, 0)
+_10.Position = UDim2.new(0.256972104, 0, 0.411542922, 0)
 _10.Size = UDim2.new(0, 115, 0, 36)
 _10.ZIndex = 3
 _10.Font = Enum.Font.SourceSansBold
@@ -126,7 +124,7 @@ _9.Name = "9"
 _9.Parent = Frame_2
 _9.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 _9.BorderSizePixel = 0
-_9.Position = UDim2.new(0, 0, 0.61403513, 0)
+_9.Position = UDim2.new(0, 0, 0.411542922, 0)
 _9.Size = UDim2.new(0, 115, 0, 36)
 _9.ZIndex = 3
 _9.Font = Enum.Font.SourceSansBold
@@ -140,7 +138,7 @@ _8.Name = "8"
 _8.Parent = Frame_2
 _8.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 _8.BorderSizePixel = 0
-_8.Position = UDim2.new(0.768924296, 0, 0.355263174, 0)
+_8.Position = UDim2.new(0.768924296, 0, 0.230652571, 0)
 _8.Size = UDim2.new(0, 115, 0, 36)
 _8.ZIndex = 3
 _8.Font = Enum.Font.SourceSansBold
@@ -154,11 +152,11 @@ _7.Name = "7"
 _7.Parent = Frame_2
 _7.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 _7.BorderSizePixel = 0
-_7.Position = UDim2.new(0.515936255, 0, 0.355263174, 0)
+_7.Position = UDim2.new(0.515936255, 0, 0.230652571, 0)
 _7.Size = UDim2.new(0, 115, 0, 36)
 _7.ZIndex = 3
 _7.Font = Enum.Font.SourceSansBold
-_7.Text = "Dex"
+_7.Text = "Russian Kick Dance"
 _7.TextColor3 = Color3.fromRGB(255, 255, 255)
 _7.TextScaled = true
 _7.TextSize = 14.000
@@ -168,11 +166,11 @@ _6.Name = "6"
 _6.Parent = Frame_2
 _6.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 _6.BorderSizePixel = 0
-_6.Position = UDim2.new(0.256972104, 0, 0.355263174, 0)
+_6.Position = UDim2.new(0.256972104, 0, 0.230652571, 0)
 _6.Size = UDim2.new(0, 115, 0, 36)
 _6.ZIndex = 3
 _6.Font = Enum.Font.SourceSansBold
-_6.Text = "Owl Hub"
+_6.Text = "Dex"
 _6.TextColor3 = Color3.fromRGB(255, 255, 255)
 _6.TextScaled = true
 _6.TextSize = 14.000
@@ -194,7 +192,7 @@ _1.Name = "1"
 _1.Parent = Frame_2
 _1.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 _1.BorderSizePixel = 0
-_1.Position = UDim2.new(0, 0, 0.105263159, 0)
+_1.Position = UDim2.new(0.00199203193, 0, 0.0554189235, 0)
 _1.Size = UDim2.new(0, 115, 0, 36)
 _1.ZIndex = 3
 _1.Font = Enum.Font.SourceSansBold
@@ -208,7 +206,7 @@ _5.Name = "5"
 _5.Parent = Frame_2
 _5.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 _5.BorderSizePixel = 0
-_5.Position = UDim2.new(0, 0, 0.355263174, 0)
+_5.Position = UDim2.new(0, 0, 0.230652571, 0)
 _5.Size = UDim2.new(0, 115, 0, 36)
 _5.ZIndex = 3
 _5.Font = Enum.Font.SourceSansBold
@@ -222,7 +220,7 @@ _2.Name = "2"
 _2.Parent = Frame_2
 _2.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 _2.BorderSizePixel = 0
-_2.Position = UDim2.new(0.256972104, 0, 0.105263159, 0)
+_2.Position = UDim2.new(0.258964121, 0, 0.0554189235, 0)
 _2.Size = UDim2.new(0, 115, 0, 36)
 _2.ZIndex = 3
 _2.Font = Enum.Font.SourceSansBold
@@ -231,6 +229,20 @@ _2.TextColor3 = Color3.fromRGB(255, 255, 255)
 _2.TextScaled = true
 _2.TextSize = 14.000
 _2.TextWrapped = true
+
+_13.Name = "13"
+_13.Parent = Frame_2
+_13.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+_13.BorderSizePixel = 0
+_13.Position = UDim2.new(0.00199203193, 0, 0.592228234, 0)
+_13.Size = UDim2.new(0, 115, 0, 36)
+_13.ZIndex = 3
+_13.Font = Enum.Font.SourceSansBold
+_13.Text = "Scorpion"
+_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+_13.TextScaled = true
+_13.TextSize = 14.000
+_13.TextWrapped = true
 
 Roundify_2.Name = "Roundify"
 Roundify_2.Parent = Frame
@@ -274,7 +286,7 @@ openclose.TextSize = 14.000
 
 -- Scripts:
 
-local function TSQOHTT_fake_script() -- Frame.LocalScript 
+local function KBDKTLN_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -315,8 +327,8 @@ local function TSQOHTT_fake_script() -- Frame.LocalScript
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(TSQOHTT_fake_script)()
-local function ZMEQF_fake_script() -- openclose.LocalScript 
+coroutine.wrap(KBDKTLN_fake_script)()
+local function HFKLCI_fake_script() -- openclose.LocalScript 
 	local script = Instance.new('LocalScript', openclose)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -331,7 +343,7 @@ local function ZMEQF_fake_script() -- openclose.LocalScript
 	
 	
 end
-coroutine.wrap(ZMEQF_fake_script)()
+coroutine.wrap(HFKLCI_fake_script)()
 
 _1.MouseButton1Click:Connect(function()
 	_G.HalfNet = false -- Recommend false. Only use it if its laggy for your server, change false to true to make it so you use half net
@@ -355,7 +367,7 @@ _5.MouseButton1Click:Connect(function()
 end)
 
 _6.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+	loadstring(game:HttpGet("rbxassetid://418957341",true))()
 end)
 
 _7.MouseButton1Click:Connect(function()
@@ -380,4 +392,8 @@ end)
 
 _12.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/WJpZ61zC", true))()
+end)
+
+_13.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Lemontas/LoarkHub/master/Scorpion%20Admin"))()
 end)
