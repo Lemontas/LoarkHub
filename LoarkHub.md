@@ -1,0 +1,383 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local Roundify = Instance.new("ImageLabel")
+local _4 = Instance.new("TextButton")
+local _3 = Instance.new("TextButton")
+local _12 = Instance.new("TextButton")
+local _11 = Instance.new("TextButton")
+local _10 = Instance.new("TextButton")
+local _9 = Instance.new("TextButton")
+local _8 = Instance.new("TextButton")
+local _7 = Instance.new("TextButton")
+local _6 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local _1 = Instance.new("TextButton")
+local _5 = Instance.new("TextButton")
+local _2 = Instance.new("TextButton")
+local Roundify_2 = Instance.new("ImageLabel")
+local TextName = Instance.new("TextLabel")
+local openclose = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ResetOnSpawn = False
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.344848871, 0, 0.475218654, 0)
+Frame.Size = UDim2.new(0, 502, 0, 32)
+Frame.ZIndex = 3
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, 1.37370396, 0)
+Frame_2.Size = UDim2.new(0, 502, 0, 228)
+Frame_2.ZIndex = 3
+
+Roundify.Name = "Roundify"
+Roundify.Parent = Frame_2
+Roundify.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Roundify.BackgroundTransparency = 1.000
+Roundify.Position = UDim2.new(0.5, 0, 0.5, 0)
+Roundify.Size = UDim2.new(1, 24, 1, 24)
+Roundify.ZIndex = 2
+Roundify.Image = "rbxassetid://3570695787"
+Roundify.ImageColor3 = Color3.fromRGB(60, 60, 60)
+Roundify.ScaleType = Enum.ScaleType.Slice
+Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify.SliceScale = 0.120
+
+_4.Name = "4"
+_4.Parent = Frame_2
+_4.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+_4.BorderSizePixel = 0
+_4.Position = UDim2.new(0.768924296, 0, 0.105263159, 0)
+_4.Size = UDim2.new(0, 115, 0, 36)
+_4.ZIndex = 3
+_4.Font = Enum.Font.SourceSansBold
+_4.Text = "NepV VR"
+_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+_4.TextScaled = true
+_4.TextSize = 14.000
+_4.TextWrapped = true
+
+_3.Name = "3"
+_3.Parent = Frame_2
+_3.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+_3.BorderSizePixel = 0
+_3.Position = UDim2.new(0.515936255, 0, 0.105263159, 0)
+_3.Size = UDim2.new(0, 115, 0, 36)
+_3.ZIndex = 3
+_3.Font = Enum.Font.SourceSansBold
+_3.Text = "Hat Hub"
+_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+_3.TextScaled = true
+_3.TextSize = 14.000
+_3.TextWrapped = true
+
+_12.Name = "12"
+_12.Parent = Frame_2
+_12.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+_12.BorderSizePixel = 0
+_12.Position = UDim2.new(0.768924296, 0, 0.61403513, 0)
+_12.Size = UDim2.new(0, 115, 0, 36)
+_12.ZIndex = 3
+_12.Font = Enum.Font.SourceSansBold
+_12.Text = "Shat"
+_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+_12.TextScaled = true
+_12.TextSize = 14.000
+_12.TextWrapped = true
+
+_11.Name = "11"
+_11.Parent = Frame_2
+_11.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+_11.BorderSizePixel = 0
+_11.Position = UDim2.new(0.515936255, 0, 0.61403513, 0)
+_11.Size = UDim2.new(0, 115, 0, 36)
+_11.ZIndex = 3
+_11.Font = Enum.Font.SourceSansBold
+_11.Text = "Domino Hub"
+_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+_11.TextScaled = true
+_11.TextSize = 14.000
+_11.TextWrapped = true
+
+_10.Name = "10"
+_10.Parent = Frame_2
+_10.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+_10.BorderSizePixel = 0
+_10.Position = UDim2.new(0.256972104, 0, 0.61403513, 0)
+_10.Size = UDim2.new(0, 115, 0, 36)
+_10.ZIndex = 3
+_10.Font = Enum.Font.SourceSansBold
+_10.Text = "Spy Chat"
+_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+_10.TextScaled = true
+_10.TextSize = 14.000
+_10.TextWrapped = true
+
+_9.Name = "9"
+_9.Parent = Frame_2
+_9.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+_9.BorderSizePixel = 0
+_9.Position = UDim2.new(0, 0, 0.61403513, 0)
+_9.Size = UDim2.new(0, 115, 0, 36)
+_9.ZIndex = 3
+_9.Font = Enum.Font.SourceSansBold
+_9.Text = "Reviz"
+_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+_9.TextScaled = true
+_9.TextSize = 14.000
+_9.TextWrapped = true
+
+_8.Name = "8"
+_8.Parent = Frame_2
+_8.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+_8.BorderSizePixel = 0
+_8.Position = UDim2.new(0.768924296, 0, 0.355263174, 0)
+_8.Size = UDim2.new(0, 115, 0, 36)
+_8.ZIndex = 3
+_8.Font = Enum.Font.SourceSansBold
+_8.Text = "Infinite Yield"
+_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+_8.TextScaled = true
+_8.TextSize = 14.000
+_8.TextWrapped = true
+
+_7.Name = "7"
+_7.Parent = Frame_2
+_7.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+_7.BorderSizePixel = 0
+_7.Position = UDim2.new(0.515936255, 0, 0.355263174, 0)
+_7.Size = UDim2.new(0, 115, 0, 36)
+_7.ZIndex = 3
+_7.Font = Enum.Font.SourceSansBold
+_7.Text = "Dex"
+_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+_7.TextScaled = true
+_7.TextSize = 14.000
+_7.TextWrapped = true
+
+_6.Name = "6"
+_6.Parent = Frame_2
+_6.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+_6.BorderSizePixel = 0
+_6.Position = UDim2.new(0.256972104, 0, 0.355263174, 0)
+_6.Size = UDim2.new(0, 115, 0, 36)
+_6.ZIndex = 3
+_6.Font = Enum.Font.SourceSansBold
+_6.Text = "Owl Hub"
+_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+_6.TextScaled = true
+_6.TextSize = 14.000
+_6.TextWrapped = true
+
+TextLabel.Parent = Frame_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0, 0, 0.921052456, 0)
+TextLabel.Size = UDim2.new(0, 146, 0, 18)
+TextLabel.ZIndex = 3
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "By Lemontas#0169"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 20.000
+TextLabel.TextWrapped = true
+
+_1.Name = "1"
+_1.Parent = Frame_2
+_1.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+_1.BorderSizePixel = 0
+_1.Position = UDim2.new(0, 0, 0.105263159, 0)
+_1.Size = UDim2.new(0, 115, 0, 36)
+_1.ZIndex = 3
+_1.Font = Enum.Font.SourceSansBold
+_1.Text = "Mizt Hub"
+_1.TextColor3 = Color3.fromRGB(255, 255, 255)
+_1.TextScaled = true
+_1.TextSize = 14.000
+_1.TextWrapped = true
+
+_5.Name = "5"
+_5.Parent = Frame_2
+_5.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+_5.BorderSizePixel = 0
+_5.Position = UDim2.new(0, 0, 0.355263174, 0)
+_5.Size = UDim2.new(0, 115, 0, 36)
+_5.ZIndex = 3
+_5.Font = Enum.Font.SourceSansBold
+_5.Text = "Dark Hub"
+_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+_5.TextScaled = true
+_5.TextSize = 14.000
+_5.TextWrapped = true
+
+_2.Name = "2"
+_2.Parent = Frame_2
+_2.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+_2.BorderSizePixel = 0
+_2.Position = UDim2.new(0.256972104, 0, 0.105263159, 0)
+_2.Size = UDim2.new(0, 115, 0, 36)
+_2.ZIndex = 3
+_2.Font = Enum.Font.SourceSansBold
+_2.Text = "BlazeBypasser"
+_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+_2.TextScaled = true
+_2.TextSize = 14.000
+_2.TextWrapped = true
+
+Roundify_2.Name = "Roundify"
+Roundify_2.Parent = Frame
+Roundify_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Roundify_2.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Roundify_2.BackgroundTransparency = 1.000
+Roundify_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+Roundify_2.Size = UDim2.new(1, 24, 1, 24)
+Roundify_2.ZIndex = 2
+Roundify_2.Image = "rbxassetid://3570695787"
+Roundify_2.ImageColor3 = Color3.fromRGB(40, 40, 40)
+Roundify_2.ScaleType = Enum.ScaleType.Slice
+Roundify_2.SliceCenter = Rect.new(100, 100, 100, 100)
+Roundify_2.SliceScale = 0.120
+
+TextName.Name = "TextName"
+TextName.Parent = Frame
+TextName.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+TextName.BorderSizePixel = 0
+TextName.Position = UDim2.new(-0.00176466978, 0, -0.0012960434, 0)
+TextName.Size = UDim2.new(0, 502, 0, 44)
+TextName.ZIndex = 3
+TextName.Font = Enum.Font.SourceSansBold
+TextName.Text = "LOARK HUB"
+TextName.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextName.TextScaled = true
+TextName.TextSize = 14.000
+TextName.TextWrapped = true
+
+openclose.Name = "openclose"
+openclose.Parent = Frame
+openclose.BackgroundColor3 = Color3.fromRGB(141, 39, 14)
+openclose.BorderSizePixel = 0
+openclose.Position = UDim2.new(0.938247025, 0, 0.0162037015, 0)
+openclose.Size = UDim2.new(0, 30, 0, 30)
+openclose.ZIndex = 3
+openclose.Font = Enum.Font.SourceSans
+openclose.Text = ""
+openclose.TextColor3 = Color3.fromRGB(0, 0, 0)
+openclose.TextSize = 14.000
+
+-- Scripts:
+
+local function TSQOHTT_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+		dragToggle = nil
+		local dragSpeed = 0
+		dragInput = nil
+		dragStart = nil
+		local dragPos = nil
+		function updateInput(input)
+			local Delta = input.Position - dragStart
+			local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+			game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+		end
+		Frame.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+				dragToggle = true
+				dragStart = input.Position
+				startPos = Frame.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+		Frame.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if input == dragInput and dragToggle then
+				updateInput(input)
+			end
+		end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(TSQOHTT_fake_script)()
+local function ZMEQF_fake_script() -- openclose.LocalScript 
+	local script = Instance.new('LocalScript', openclose)
+
+	script.Parent.MouseButton1Down:connect(function()
+		if script.Parent.Parent.Frame.Visible == false then
+			script.Parent.Parent.Frame.Visible = true
+			script.Parent.BackgroundColor3 = "1, 1, 1"
+		else
+			script.Parent.Parent.Frame.Visible = false
+			script.Parent.BackgroundColor3 = "141, 39, 14"
+		end
+	end)
+	
+	
+end
+coroutine.wrap(ZMEQF_fake_script)()
+
+_1.MouseButton1Click:Connect(function()
+	_G.HalfNet = false -- Recommend false. Only use it if its laggy for your server, change false to true to make it so you use half net
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Sylixe/MiztHub/master/MainFolder/uqXAxyVdQpWTcRCdFXU6Yt2meuDkYcLUDN4SJRekQWZ5wp368zKHreYT4w82AH4U.lua",true))()
+end)
+
+_2.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/alfiebgtbhgh/blazebypasserx/main/Main.lua'))()
+end)
+
+_3.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/AHaKgU0H",true))()
+end)
+
+_4.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/6fvFFFWz",true))()
+end)
+
+_5.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://darkhub.xyz/remote-script.lua", true))()
+end)
+
+_6.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+end)
+
+_7.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/A300Q3rp"))()
+end)
+
+_8.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+_9.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/X9gXxYZM", true))()
+end)
+
+_10.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/yp8byWEe", true))()
+end)
+
+_11.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NotDominos/DominoHub/master/DominoHubBeta"))()
+end)
+
+_12.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/WJpZ61zC", true))()
+end)
